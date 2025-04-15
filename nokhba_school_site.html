@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>المدرسة الابتدائية الخاصة بالنخبة</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://images.unsplash.com/photo-1600172454520-6c0dba7fe1f3?auto=format&fit=crop&w=1470&q=80');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #333;
+    }
+
+    header {
+      background-color: rgba(13, 110, 253, 0.9);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: rgba(233, 236, 239, 0.9);
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #0d6efd;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-color: rgba(0, 0, 0, 0.6);
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.5em;
+    }
+
+    .section {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 40px 20px;
+      margin: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .feature {
+      width: 200px;
+      margin: 20px 0;
+    }
+
+    form {
+      max-width: 500px;
+      margin: auto;
+      text-align: right;
+    }
+
+    input, select, button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 1em;
+    }
+
+    footer {
+      background-color: rgba(13, 110, 253, 0.9);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>المدرسة الابتدائية الخاصة بالنخبة</h1>
+    <p>نرعى النخبة منذ الخطوة الأولى</p>
+  </header>
+
+  <nav>
+    <a href="#">الرئيسية</a>
+    <a href="#">من نحن</a>
+    <a href="#">الخدمات</a>
+    <a href="#">التسجيل</a>
+    <a href="#">اتصل بنا</a>
+  </nav>
+
+  <section class="hero">
+    <h1>نُعلّم اليوم قادة الغد</h1>
+    <p>سجّل طفلك الآن في بيئة تعليمية محفزة وآمنة</p>
+  </section>
+
+  <section class="section">
+    <h2>من نحن</h2>
+    <p>المدرسة الابتدائية الخاصة بالنخبة تسعى إلى تقديم تعليم يجمع بين القيم والمعرفة، في بيئة تحفيزية وآمنة.</p>
+  </section>
+
+  <section class="section">
+    <h2>لماذا نحن؟</h2>
+    <div class="features">
+      <div class="feature">معلمون مؤهلون</div>
+      <div class="feature">مناهج حديثة</div>
+      <div class="feature">أنشطة لا صفية</div>
+      <div class="feature">بيئة آمنة</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>التسجيل</h2>
+    <form action="https://formsubmit.co/elitemanouba@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="طلب تسجيل جديد - المدرسة الابتدائية الخاصة بالنخبة">
+
+      <label>اسم الطالب</label>
+      <input type="text" name="اسم الطالب" required>
+
+      <label>تاريخ الميلاد</label>
+      <input type="date" name="تاريخ الميلاد" required>
+
+      <label>الصف المطلوب</label>
+      <select name="الصف المطلوب">
+        <option>التحضيري</option>
+        <option>السنة الأولى</option>
+        <option>السنة الثانية</option>
+        <option>السنة الثالثة</option>
+        <option>السنة الرابعة</option>
+        <option>السنة الخامسة</option>
+        <option>السنة السادسة</option>
+      </select>
+
+      <label>اسم ولي الأمر</label>
+      <input type="text" name="اسم ولي الأمر" required>
+
+      <label>رقم الهاتف</label>
+      <input type="tel" name="رقم الهاتف" required>
+
+      <label>البريد الإلكتروني</label>
+      <input type="email" name="البريد الإلكتروني">
+
+      <button type="submit">إرسال الطلب</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 المدرسة الابتدائية الخاصة بالنخبة</p>
+    <p>رقم الهاتف: 535741104</p>
+    <p>البريد الإلكتروني: <a href="mailto:elitemanouba@gmail.com">elitemanouba@gmail.com</a></p>
+    <p>معلوم التسجيل السنوي: 200 دينار</p>
+  </footer>
+
+</body>
+</html>
